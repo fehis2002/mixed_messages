@@ -1,0 +1,24 @@
+{
+  "name": "mixed_messages",
+  "version": "1.0.0",
+  "description": "This project is a *message generator* program.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fehis2002/mixed_messages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fehis2002/mixed_messages/issues"
+  },
+  "homepage": "https://github.com/fehis2002/mixed_messages#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
