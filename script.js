@@ -40,7 +40,7 @@ function generateMessage(array){
 
 // This function receives a topic and generates a cohesive message
 function generateMessageTopic() {
-    if(Object.keys(topicMessages).includes(answer)){
+    if(Object.keys(topicMessages).includes(answer.toLowerCase)){
         return generateMessage(topicMessages[answer]);
     } else {
         return 'The word you entered was not an option.';
