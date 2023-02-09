@@ -12,7 +12,7 @@ const topicMessages = {
     ],
 
     'school': [
-        'School is an instution for educting children, teens and adults.', 
+        'School is an instution for educating children, teens and adults.', 
         'There are sorts of institutions, like elementary school, middle school, high school, college and university.',
         'Some people love school, some people hate school.',
         'School is fun!!!'
@@ -40,7 +40,7 @@ function generateMessage(array){
 
 // This function receives a topic and generates a cohesive message
 function generateMessageTopic() {
-    if(Object.keys(topicMessages).includes(answer.toLowerCase)){
+    if(Object.keys(topicMessages).includes(answer.toLowerCase())){
         return generateMessage(topicMessages[answer]);
     } else {
         return 'The word you entered was not an option.';
